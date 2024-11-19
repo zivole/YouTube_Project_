@@ -1,0 +1,92 @@
+.add-video-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+.add-video-card {
+    width: 450px; /* Increased width */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.add-video-card-body {
+    padding: 30px; /* Increased padding */
+}
+
+.add-video-card-title {
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin */
+}
+
+.header_logoImage {
+    max-width: 120px; /* Increased max-width */
+    height: auto;
+}
+
+.add-video-input-group {
+    margin-bottom: 20px; /* Increased margin */
+}
+
+.add-video-input-group label {
+    display: block;
+    margin-bottom: 10px; /* Increased margin */
+    font-weight: bold;
+    font-size: 1.1rem; /* Increased font size */
+}
+
+.add-video-input-group input[type="text"],
+.add-video-file-input-wrapper input[type="file"] {
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1.1rem; /* Increased font size */
+}
+
+.add-video-file-input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.add-video-file-input-wrapper input[type="file"] {
+    flex-grow: 1;
+    border: none;
+    padding: 0;
+}
+
+.file-input-label {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.file-input-label:hover {
+    background-color: white;
+}
+
+.add-video-btn {
+    display: block;
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem; /* Increased font size */
+    cursor: pointer;
+}
+
+.add-video-btn:hover {
+    background-color: white;
+}

@@ -1,0 +1,78 @@
+/* Left Sidebar */
+.sidebar {
+  font-size: 1.25rem; /* Increase text size */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 10px; /* Adjust padding for spacing */
+  width: 100%;
+  transition: background-color 0.3s; /* Add transition for hover effect */
+  background-color: white;
+  margin-top: 20px;
+  position: relative; /* Make the sidebar fixed */
+  top: 56px; /* Align under the navbar */
+  left: 0;
+  width: 200px; /* Set the width of the sidebar */
+  height: calc(100% - 56px); /* Adjust height to account for the navbar */
+  background-color: white; /* Set background color of the sidebar */
+  z-index: 1000; /* Ensure the sidebar is on top */
+  padding-top: 20px;
+
+}
+
+/* .row {
+  position: flex;
+  
+} */
+
+.btn-light {
+  background-color: white;
+  border-color: white;
+}
+
+
+.dark-mode .btn-light {
+  background-color: #555;
+}
+
+.dark-mode .sidebar {
+  background-color: #555; /* Dark mode background color */
+  color: #fff; /* Dark mode text color */
+  position: fixed;
+  position: relative;
+}
+
+.btn-sidebar {
+  margin-top: 20px;
+  font-size: 1.00rem; /* Adjust the font size as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px; /* Adjust padding for spacing */
+  color: inherit; /* Inherit text color */
+}
+
+.btn-sidebar svg {
+  margin-bottom: 0.5rem; /* Space between icon and text */
+}
+
+.btn-sidebar:hover {
+  background-color: #e1e1e1; /* Change background color on hover */
+}
+
+.dark-mode .btn-sidebar {
+  background-color: #555; /* Dark mode hover background color */
+  color: white;
+  border: transparent;
+}
+
+.dark-mode .btn-sidebar:hover {
+  background-color: #777; /* Dark mode hover background color */
+}
+
+/* body.dark-mode .btn-sidebar {
+  background-color: #555; /* Dark mode button background color */
+  /* color: #fff; Dark mode button text color */
+/* }  */

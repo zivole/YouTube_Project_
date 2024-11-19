@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    style="@style/ScreenBackground">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_trending"
+            android:icon="@drawable/baseline_trending_up_24"
+            android:title="@string/title_trending" />
+
+        <item android:id="@+id/nav_music"
+            android:icon="@drawable/baseline_music_note_24"
+            android:title="@string/title_music" />
+
+        <item android:id="@+id/nav_gaming"
+            android:icon="@drawable/baseline_sports_esports_24"
+            android:title="@string/title_gaming" />
+
+        <item android:id="@+id/nav_movies"
+            android:icon="@drawable/baseline_movie_24"
+            android:title="@string/title_movies" />
+
+        <item android:id="@+id/nav_news"
+            android:icon="@drawable/baseline_newspaper_24"
+            android:title="@string/title_news" />
+
+        <item android:id="@+id/nav_sports"
+            android:icon="@drawable/baseline_sports_cricket_24"
+            android:title="@string/title_sports" />
+
+    </group>
+
+
+
+    <item android:title="@string/empty_space">
+        <!-- Used string resource instead of hardcoded space -->
+        <menu>
+            <item android:id="@+id/log_in"
+                android:icon="@drawable/baseline_login_24"
+                android:title="@string/title_login" />
+
+            <item android:id="@+id/signup"
+                android:icon="@drawable/baseline_sign_up"
+                android:title="@string/title_signup" />
+
+            <item android:id="@+id/logout"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="@string/title_logout"
+                android:visibility="gone" />
+
+            <item android:id="@+id/settings"
+                android:icon="@drawable/settings"
+                android:title="@string/title_settings"
+                android:visibility="gone" />
+        </menu>
+    </item>
+
+    <item android:title="@string/empty_space">
+    </item>
+
+    <item android:id="@+id/switchMode"
+        android:title="@string/dark_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:actionViewClass="androidx.appcompat.widget.SwitchCompat"
+        app:showAsAction="always"
+        style="@style/TextColor">
+    </item>
+
+
+
+</menu>

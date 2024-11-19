@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "thumbnail": "resort_thailand",
+    "title": "Resort in Thailand part 1",
+    "channel": "Hodaya Barak",
+    "channel_thumbnail": "hodaya",
+    "video_url": "resort_in_thailand_part_1",
+    "views": "10K views  •",
+    "time": "6 hours ago"
+  },
+  {
+    "id": 2,
+    "thumbnail": "kohpahngan",
+    "title": "Beaches in Thailand",
+    "channel": "Hodaya Barak",
+    "channel_thumbnail": "hodaya",
+    "video_url": "beaches_in_thailand",
+    "views": "1M views  •",
+    "time": "6 hours ago"
+  },
+  {
+    "id": 3,
+    "thumbnail": "hallstatt",
+    "title": "Mondsee lake, Austria",
+    "channel": "Ziv Olewsky",
+    "channel_thumbnail": "ziv",
+    "video_url": "hallstatt_austria_part_1",
+    "views": "10K views  •",
+    "time": "6 hours ago"
+  },
+  {
+    "id": 4,
+    "thumbnail": "hallstatt_1",
+    "title": "Hallstatt Austria",
+    "channel": "Ziv Olewsky",
+    "channel_thumbnail": "ziv",
+    "video_url": "hallstatt_austria_part_2",
+    "views": "1M views  •",
+    "time": "6 hours ago"
+  },
+  {
+    "id": 5,
+    "thumbnail": "volcano",
+    "title": "Volcano",
+    "channel": "Guy Rozental",
+    "channel_thumbnail": "guy",
+    "video_url": "volcano",
+    "views": "100K views  •",
+    "time": "6 hours ago"
+  },
+  {
+    "id": 6,
+    "thumbnail": "resort_thai",
+    "title": "Resort in Thailand part 2",
+    "channel": "Hodaya Barak",
+    "channel_thumbnail": "hodaya",
+    "video_url": "resort_in_thailand_part_2",
+    "views": "50K views  •",
+    "time": "6 hours ago"
+  },
+  {
+    "id": 7,
+    "thumbnail": "south_africa",
+    "title": "Sailing South africa",
+    "channel": "Ziv Olewsky",
+    "channel_thumbnail": "ziv",
+    "video_url": "sailing_south_africa",
+    "views": "1M views  •",
+    "time": "6 hours ago"
+  },
+  {
+    "id": 8,
+    "thumbnail": "sea_turtle",
+    "title": "Sea turtles diving",
+    "channel": "Guy Rosental",
+    "channel_thumbnail": "guy",
+    "video_url": "sea_turtles_diving",
+    "views": "10K views  •",
+    "time": "6 hours ago"
+  },
+  {
+    "id": 9,
+    "thumbnail": "hotel",
+    "title": "Hotel in Thailand",
+    "channel": "Hodaya Barak",
+    "channel_thumbnail": "hodaya",
+    "video_url": "hotel_in_thailand",
+    "views": "1K views  •",
+    "time": "6 hours ago"
+  },
+  {
+    "id": 10,
+    "thumbnail": "fish",
+    "title": "Scuba diving fish",
+    "channel": "Guy Rosental",
+    "channel_thumbnail": "guy",
+    "video_url": "scuba_diving_fish",
+    "views": "100K views  •",
+    "time": "6 hours ago"
+  }
+]

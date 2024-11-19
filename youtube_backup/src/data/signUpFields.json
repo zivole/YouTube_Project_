@@ -1,0 +1,34 @@
+{
+    "fields": [
+      {
+        "id": "firstName",
+        "type": "text",
+        "placeholder": "First Name",
+        "icon": "person"
+      },
+      {
+        "id": "lastName",
+        "type": "text",
+        "placeholder": "Last Name",
+        "icon": "person"
+      },
+      {
+        "id": "username",
+        "type": "text",
+        "placeholder": "Username",
+        "icon": "person"
+      },
+      {
+        "id": "password",
+        "type": "password",
+        "placeholder": "Password",
+        "icon": "lock"
+      },
+      {
+        "id": "confirmPassword",
+        "type": "password",
+        "placeholder": "Confirm Password",
+        "icon": "lock"
+      }
+    ]
+  }

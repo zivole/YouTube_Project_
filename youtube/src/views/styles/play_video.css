@@ -1,0 +1,252 @@
+.container-fluid {
+    padding-top: 5px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the video player */
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%; /* Make the video player smaller */
+    padding-bottom: 45%; /* Adjust aspect ratio to make the player smaller */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 20px; /* Add space below the video player */
+}
+
+.video-element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%; /* Ensure the width matches the video player */
+}
+
+.play-video-info {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    width: 100%; /* Ensure the width matches the video player */
+}
+
+.play-video-info p {
+    margin-top: 10px;
+    margin-bottom: 0; /* Remove bottom margin for closer spacing */
+}
+
+.bar_buttons {
+    margin-left: auto;
+    display: flex; /* Ensure buttons are aligned horizontally */
+    align-items: center; /* Center the buttons vertically */
+}
+
+.bar_buttons button {
+    margin-left: 5px; /* Reduce space between buttons */
+    margin-right: 5px; /* Reduce space between buttons */
+}
+
+.publisher {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Reduce space between sections */
+    width: 100%; /* Ensure the width matches the video player */
+}
+
+.publisher img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px; /* Reduce spacing */
+}
+
+.publisher-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.publisher-info p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.publisher-info span {
+    color: #606060;
+    font-size: 14px;
+}
+
+.publisher .ms-auto {
+    margin-left: auto;
+}
+
+hr.my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.recommended {
+    padding: 10px;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s, box-shadow 0.2s;
+    margin-bottom: 10px;
+}
+
+.list-group-item:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.thumbnail-image {
+    width: 120px;
+    height: 90px; /* Maintain a 4:3 aspect ratio */
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.video-info {
+    flex: 1;
+    overflow: hidden;
+}
+
+.video-info h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.video-info p {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.video-info p:first-of-type {
+    margin-top: 5px;
+}
+
+.video-info p:last-of-type {
+    margin-top: 2px;
+}
+
+.comment-section {
+    margin-top: 10px; /* Reduce space between sections */
+    width: 100%; /* Ensure the width matches the video player */
+    text-align: left; /* Align title to the left */
+}
+
+.comment-section h2 {
+    margin: 0; /* Remove default margin */
+    padding: 10px 0; /* Add padding for spacing */
+    font-size: 20px; /* Adjust font size */
+}
+
+.comments-list {
+    margin-top: 10px; /* Add space between title and comments */
+}
+
+.comment {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.comment .content {
+    margin-bottom: 10px;
+}
+
+.comment .actions {
+    text-align: right;
+}
+
+.comment .actions button {
+    margin-left: 5px;
+}
+
+.comment-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+.comment-input input {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.comment-input button {
+    white-space: nowrap;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.modal-body a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    width: 40px;
+    height: 35px;
+    color: #000;
+    text-decoration: none;
+}
+
+.modal-body a:hover svg {
+    color: #007bff;
+}
+
+body.dark-mode {
+    background-color: #2e2e2e;
+    color: white;
+}
+
+body.dark-mode .comment-input input {
+    background-color: #444;
+    color: white;
+    border-color: #555;
+}
+
+body.dark-mode .comment-input input::placeholder {
+    color: #ccc;
+}
+
+body.dark-mode .publisher span {
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+}

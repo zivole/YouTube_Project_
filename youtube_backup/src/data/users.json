@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "username": "john",
+      "password": "Aa12345678!",
+      "image":  "../data/user1.png"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# App Overview
+Our app is a versatile video-sharing platform designed for a smooth and intuitive user experience. From the Home Page, users can easily explore a range of videos, use the search bar to find specific content, and personalize their interface with options like signing in, signing up, or switching to dark mode. The aim is to create a user-friendly and engaging interface from the start.
+
+Users can navigate to the Watch Video Page, where they enjoy smooth video playback with controls like pause, skip, and rewind. They can actively participate by leaving comments, liking or disliking videos, and viewing the total number of views. Engagement is a priority here, allowing users to add and delete comments, building a community around each video.
+
+The Sign-Up and Sign-In Pages ensure a hassle-free experience for creating accounts and logging in. With features like username availability checks and password strength validation, the process is secure and user-friendly. After signing in, the Profile Page serves as a personal space where users can update their username, manage their uploaded videos, and sign out when needed. Any changes made are immediately reflected throughout the platform, from the video listings to the Watch Video page.
+
+Uploading videos is quick and straightforward. On the Add Video Page, users can upload new content by providing a video file, title, and thumbnail. Once uploaded, videos appear instantly on the Watch Video page, in search results, and on their profile. For updates, the Edit Video Page allows users to change a video's title or replace the file, with changes reflected across the app wherever the video is displayed.
+
+For managing content, users can easily remove any uploaded video using the Delete Video feature. Deleted videos are immediately removed from the video list, Watch Video page, and profile, making content management simple and effective.
+
+Our app focuses on seamless video management, allowing users to upload, edit, and control their content with ease. With efficient search functionality and tailored recommendations, users can quickly find relevant content. Engagement tools like comments, likes, and robust content management help maintain a lively and interactive experience. Every user action is updated instantly across the platform, providing a smooth, cohesive experience from start to finish.

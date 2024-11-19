@@ -1,0 +1,245 @@
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px; /* Reduce padding */
+  position: relative;
+  height: 20px; /* Reduce height */
+  width: 40px; /* Reduce width */
+  transform: scale(1); /* No scaling */
+}
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px; /* Adjust for smaller height */
+  left: 1px; /* Adjust for smaller width */
+  height: 18px; /* Reduce height */
+  width: 18px; /* Reduce width */
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(20px); /* Adjust for smaller width */
+}
+
+.fa-moon, .fa-sun {
+  font-size: 10px; /* Reduce icon size */
+}
+
+.dark-mode .search-bar{
+  background-color: #555;
+  color: white;
+}
+
+.dark-mode .form-control{
+  background-color: #555;
+  color: white;
+  
+}
+
+.dark-mode .search-btn{
+  color: white;
+  /* background-color: #555; */
+  
+}
+
+.dark-mode {
+  background-color: #555;
+  color: white;
+}
+
+.light-mode{
+  background-color: #ffffff;
+  color: black;
+}
+
+.btn-primary {
+  background-color: red;
+  color: white;
+  border-color: red;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: red;
+  border-color: white
+}
+
+.btn-outline-primary{
+  background-color: white;
+  color: red;
+  border-color: red;
+}
+
+.btn-outline-primary:hover{
+  background-color: red;
+  color: white;
+  border-color: white;
+}
+
+.dark-mode .btn-outline-primary{
+  background-color: white;
+  color: red;
+  border-color: white;
+}
+.dark-mode .btn-outline-primary:hover{
+  background-color: red;
+  color: white;
+  border-color: red;
+}
+
+.dropdown-menu {
+  color: #000;
+}
+
+.dropdown-menu.show{
+  display: block;
+}
+
+.dropdown-menu.show:hover{
+ color: red;
+}
+
+/* Light mode styles */
+.search-input {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.search-input::placeholder {
+  color: #ccc;
+}
+
+.search-btn {
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+}
+
+
+/* Dark mode styles */
+.navbar-dark .search-input {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+.navbar-dark .search-input::placeholder {
+  color: #888;
+}
+
+/* .navbar-dark .search-btn {
+  background-color: #555;
+  border: 1px solid #777;
+} */
+
+.dark-mode .search-btn{
+  background-color:#555;
+  color: white;
+}
+
+.dark-mode .search-btn:hover{
+  background-color:#777;
+  color: white;
+}
+
+.header__logoImage {
+  width: auto; /* Adjust the width to your desired size */
+  height: 40px; /* Maintain aspect ratio */
+  fill: currentColor; /* Use current text color */
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+
+body.dark-mode .header__logoImage {
+  width: auto; /* Adjust the width to your desired size */
+  height: 40px; /* Maintain aspect ratio */
+  fill: currentColor; /* Use current text color */
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+
+
+/* Offcanvas Menu */
+.offcanvas {
+  background-color: #f8f9fa; /* Light mode background */
+}
+
+.dark-mode .offcanvas-btn{
+  color: white;
+}
+
+body.dark-mode .offcanvas {
+  background-color: #555; /* Dark mode background */
+  color: #fff; /* Dark mode text color */
+}
+
+.dark-mpde .btn btn-outline-primary{
+  color: white;
+}
+.search-input {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.dark-mode .search-input {
+  background-color: #333;
+  color: white;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+/* NavigationBar.css */
+
+/* Add custom styles here */
+
+.navbar .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logoImage {
+  height: 40px;
+}
+
+.search {
+  flex-grow: 1;
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+}
+
+.search-input {
+  width: 100%;
+}
+
+.search-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+
+

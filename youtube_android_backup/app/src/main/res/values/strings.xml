@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">YouTube_android</string>
+
+
+    <string name="button">Button</string>
+    <string name="video_title">Video title</string>
+    <string name="like">Like</string>
+    <string name="unlike">Unlike</string>
+    <string name="share">Share</string>
+    <string name="date">date</string>
+    <string name="views">views .</string>
+    <string name="publisher">Publisher</string>
+    <string name="subscribe">subscribe</string>
+    <string name="_1_000_views">1,000 views</string>
+    <string name="_2y_ago">2y ago</string>
+    <string name="inputText">"Write a comment"</string>
+    <string name="btnAddText">Add</string>
+    <string name="btnEditText">Edit</string>
+    <string name="add_comment">Add Comment</string>
+    <string name="edit_comment">Edit Comment</string>
+    <string name="delete_comment">Delete Comment</string>
+    <string name="back">back</string>
+    <string name="comments">Comments</string>
+    <string name="video_path">Video Path:</string>
+
+    <string name="select_video">Select Video</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="share_on_messenger">Share on Messenger</string>
+    <string name="share_on_instagram">Share on Instagram</string>
+    <string name="share_on_twitter">Share on Twitter</string>
+    <string name="share_on_facebook">Share on Facebook</string>
+
+
+
+    <string name="profile_image">Profile Image</string>
+    <string name="nav_open">Open Navigation Drawer</string>
+    <string name="nav_close">Close Navigation Drawer</string>
+    <string name="switch_mode_desc">Toggle dark/light mode</string>
+    <string name="dark_mode">Drak Mode </string>
+    <string name="light_mode"> Light Mode </string>
+
+    <string name="video_kohphangan">Koh Phangan sand</string>
+    <string name="video_kohphangan_sunset">Koh Phangan Sunset</string>
+    <string name="video_sea_turtle">Sea Turtle in Koh Tao</string>
+    <string name="video_uv_directed">UV Directed Graph</string>
+    <string name="video_uv_piano">UV and Piano</string>
+    <string name="video_uv_piano_2">UV and Piano #2</string>
+    <string name="video_pass">Pass Pass, It`s a Come, It`s a Goal</string>
+
+    <!--    navigation bar -->
+    <string name="user_welcome">Hello, Guset</string>
+    <string name="title_trending">Trending</string>
+    <string name="title_music">Music</string>
+    <string name="title_gaming">Gaming</string>
+    <string name="title_movies">Movies</string>
+    <string name="title_news">News</string>
+    <string name="title_sports">Sports</string>
+    <string name="title_login">Login</string>
+    <string name="title_signup">Sign Up</string>
+    <string name="title_logout">Logout</string>
+    <string name="title_settings">Settings</string>
+    <string name="empty_space"> </string> <!-- Added space string resource -->
+
+    <string name="enter_video_title">Enter video title</string>
+    <string name="choose_video">Choose video</string>
+    <string name="add_video">Add video</string>
+    <string name="upload_video">Upload video</string>
+
+    <string name="youtube_android">YouTube Android</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="add_image">Add Image</string>
+    <string name="cancel">Cancel</string>
+    <string name="already_have_account_login">Already have an account? Login</string>
+    <string name="youtube_logo">YouTube Logo</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="BaseUrl">http://10.0.2.2:8080/api/</string>
+    <string name="uploadslUrl">http://10.0.2.2:8080/</string>
+
+
+
+
+
+</resources>

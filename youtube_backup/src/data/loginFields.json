@@ -1,0 +1,17 @@
+{
+    "fields": [
+      {
+        "id": "username",
+        "type": "text",
+        "placeholder": "Username",
+        "icon": "person"
+      },
+      {
+        "id": "password",
+        "type": "password",
+        "placeholder": "Password",
+        "icon": "lock"
+      }
+    ]
+  }
+  

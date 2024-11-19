@@ -1,0 +1,145 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+
+    <style name="Theme.YouTube_android" parent="Base.Theme.YouTube_android" />
+
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--    </style>-->
+
+    <style name="Base.Theme.YouTube_android" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:statusBarColor">@color/red</item>
+    </style>
+
+    <style name="Theme.Ytb" parent="Base.Theme.YouTube_android">
+        <!-- Additional customizations can be added here -->
+    </style>
+
+    <style name="AppTheme" parent="Base.Theme.YouTube_android">
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.Ytb_homepage" parent="Base.Theme.YouTube_android"/>
+
+    <style name="ThemeOverlay.AppCompat.navTheme">
+        <item name="colorPrimary">@color/black</item>
+        <item name="searchViewStyle">@style/LightSearchView</item>
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.Light.ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize your action bar theme here. -->
+        <item name="android:background">@color/white</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <style name="LightSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="queryBackground">@android:color/transparent</item>
+        <item name="android:textColor">@color/search_text_color_light</item>
+        <item name="android:src">@drawable/baseline_search_24</item>
+    </style>
+
+    <!-- Light mode screen background -->
+    <style name="ScreenBackground">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="addBtn">
+        <item name="android:background">@color/red</item>
+    </style>
+
+    <style name="CardBackground">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- Text color -->
+    <style name="TextColor">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="LogoChange">
+        <item name="android:src">@drawable/ytb</item>
+    </style>
+
+    <style name="drkMd_search">
+        <item name="android:src">@drawable/baseline_search_24</item>
+    </style>
+
+    <style name="PopupMenuLight" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- Button background -->
+    <style name="BUTTON">
+        <item name="android:background">@android:color/black</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+<style name="like">
+    <item name="android:src">@drawable/ic_like</item>
+</style>
+
+    <style name="after_like">
+        <item name="android:src">@drawable/ic_after_like</item>
+    </style>
+
+    <style name="unlike">
+        <item name="android:src">@drawable/ic_unlike</item>
+    </style>
+
+    <style name="after_unlike">
+        <item name="android:src">@drawable/ic_after_unlike</item>
+    </style>
+
+    <style name="share">
+        <item name="android:src">@drawable/ic_share</item>
+    </style>
+
+    <style name="subscribe">
+        <item name="android:src">@drawable/ic_subscribe</item>
+    </style>
+
+    <style name="after_subscribe">
+        <item name="android:src">@drawable/ic_after_subscribe</item>
+    </style>
+
+    <style name="save">
+        <item name="android:src">@drawable/ic_save</item>
+    </style>
+
+    <style name="edit">
+        <item name="android:src">@drawable/ic_edit</item>
+    </style>
+
+    <style name="delete">
+        <item name="android:src">@drawable/ic_delete</item>
+    </style>
+
+    <style name="comments">
+        <item name="android:src">@drawable/ic_comments</item>
+    </style>
+
+    <style name="addcomment">
+        <item name="android:src">@drawable/baseline_add_24</item>
+    </style>
+
+    <style name="settings">
+        <item name="android:src">@drawable/settings</item>
+    </style>
+
+    <style name="back">
+        <item name="android:src">@drawable/ic_back</item>
+    </style>
+
+    <style name="uploadBtn">
+        <item name="android:src">@drawable/upload_black</item>
+    </style>
+
+</resources>

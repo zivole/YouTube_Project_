@@ -1,0 +1,188 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_singup"
+    tools:context=".activities.UserDetailsActivity">
+
+    <!-- Center container for image and details -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- User profile picture -->
+        <ImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/profile_image"
+            android:background="@drawable/circular_background"
+            android:src="@drawable/user_img"/>
+
+        <!-- User details and buttons below -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:background="@drawable/login_signup_background_frame"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/firstName"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_signup_edittext_background"
+                android:hint="@string/first_name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+            <EditText
+                android:id="@+id/lastName"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_signup_edittext_background"
+                android:hint="@string/last_name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_signup_edittext_background"
+                android:hint="@string/username"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+            <!-- Password field initially hidden -->
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_signup_edittext_background"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:visibility="gone"/>
+
+            <!-- Edit and delete buttons with different colors -->
+            <LinearLayout
+                android:id="@+id/editDeleteLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/editButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@android:color/holo_blue_light"
+                    android:text="EDIT"
+                    android:textSize="17sp"
+                    android:textColor="@android:color/white"/>
+
+                <Button
+                    android:id="@+id/deleteButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/holo_red_dark"
+                    android:text="DELETE"
+                    android:textSize="17sp"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+            <!-- Confirm and cancel delete buttons, initially hidden -->
+            <LinearLayout
+                android:id="@+id/confirmDeleteLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/confirmDeleteButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@android:color/holo_red_dark"
+                    android:text="CONFIRM DELETE"
+                    android:textSize="17sp"
+                    android:textColor="@android:color/white"/>
+
+                <Button
+                    android:id="@+id/cancelDeleteButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/holo_blue_light"
+                    android:text="CANCEL"
+                    android:textSize="17sp"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+            <!-- Save and cancel edit buttons, initially hidden -->
+            <LinearLayout
+                android:id="@+id/saveCancelLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@android:color/holo_green_light"
+                    android:text="@string/save"
+                    android:textSize="17sp"
+                    android:textColor="@android:color/white"/>
+
+                <Button
+                    android:id="@+id/cancelEditButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/holo_red_dark"
+                    android:text="@string/cancel"
+                    android:textSize="17sp"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+            <!-- Return to home button -->
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#9F9898"
+                android:text="Return to Home"
+                android:textSize="17sp"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
