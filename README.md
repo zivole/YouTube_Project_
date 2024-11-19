@@ -82,8 +82,8 @@ The **TCP server** is a critical component that enhances the platform's performa
 
 ## Development Team
 
-- **Hodaya Barak**
 - **Ziv Olevsky**
+- **Hodaya Barak**
 - **Guy Rosental**
 
 ## Project Management
