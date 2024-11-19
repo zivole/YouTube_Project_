@@ -125,7 +125,45 @@ The backend utilizes the **MVC (Model-View-Controller)** pattern for clear separ
 
 1. Clone the repository:
    ```bash
-     git clone https://github.com/HodayaBarak/YouTube-project/youtube
+   git clone https://github.com/HodayaBarak/YouTube-project/youtube
    cd youtube
    npm install
+2. Run the Application:
+   ```bash
+   npm start
 
+### Android Project
+
+#### Prerequisites
+
+- Android Studio (version 4.0 or later)
+- Android device or emulator running API level 26 (Oreo) or higher
+   
+#### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Guyrose1998/YouTube_android
+2. Open and Run the Project:
+   - Open Android Studio.
+   - Import the project you just cloned.
+   - Build the project and run it on your Android device or emulator.   
+
+### Server-Side Project
+
+#### Prerequisites
+
+- Node.js (version 14.x or later)
+- npm (Node Package Manager)
+- MongoDB (connection string provided in environment variables)
+
+#### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/zivole/Server_youtube
+   cd Server_youtube
+   npm install
+2. Run the Server:
+   ```bash
+   node server.js
