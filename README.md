@@ -125,5 +125,7 @@ The backend utilizes the **MVC (Model-View-Controller)** pattern for clear separ
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/HodayaBarak/YouTube-project/youtube
+     git clone https://github.com/HodayaBarak/YouTube-project/youtube
    cd youtube
+   npm install
+
